@@ -18,7 +18,7 @@ st.write("Predict Runs using Innings and Strike Rate.")
 # Load Model
 @st.cache_resource
 def load_model():
-    model_path = "model.pkl"
+    model_path = "cricket_score_prediction.pkl"
 
     if not os.path.exists(model_path):
         raise FileNotFoundError(
