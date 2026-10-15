@@ -186,4 +186,4 @@ if st.button("🔮 Predict Final Score"):
 st.caption(
     "Cricket Score Predictor | Machine Learning Project"
 )
-```
+
